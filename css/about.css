@@ -1,0 +1,123 @@
+/**{
+	background: white;
+}*/
+#bg-div{
+    background-image: url(http://www.japan555.com/wp-content/uploads/sites/2/2017/03/56cebc85036ea_56cebc80187d5_284732037-1200x769.jpg);
+    background-size: cover;
+    width: 100%;
+}
+#bg{
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    border-bottom: 2px #f03c0b solid;
+    height: 700px;
+    
+}
+.travelling .text {
+    text-align: center;
+    padding-top: 300px;
+}
+.travelling .text p{
+    text-transform: uppercase;
+    font-size: 50px;
+    color:white;
+    letter-spacing: 5%;
+    margin-bottom: 0;
+    /*line-height: 40;*/
+}
+.travelling .text h6{
+	color: #f3f1f1;
+	text-transform: uppercase;
+    font-size: 20px;
+}
+.article{
+	float: left;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 100%;
+}
+.article h3{
+	size: 50px;
+}
+.article div{
+	float: left;
+	padding:20px;
+	color: #737373;
+	
+}
+.article p{
+	color: #737373;
+	text-align: center;
+}
+.ourteam{
+	float: left;
+	background-color: #bfbfbf;
+	padding-top: 10px;
+	width: 100%
+}
+.ourteam .content {
+		padding:10;
+		padding-top: 30px;
+		float: left;
+		margin: 0;
+		text-align: center;
+		;
+}
+.ourteam img{
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+
+}
+.ourteam .content .text{
+	margin-top: 30px;
+}
+.ourteam .content .text hr{
+	margin-left: 20%;
+	width: 60%;
+	color: #c9c9c9;
+}
+.ourteam .content .text p{
+	color: white;
+}
+.ipsum{
+	width: 100%;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	float: left;
+
+}
+.ipsum .container .logo{
+	float: left;
+	width: 10%;
+	margin-right: 10%;
+	color: #f03c0b;
+}
+.ipsum .container .logo i{
+	font-size: 25px;
+
+}
+.ipsum .container .text{
+	float: left;
+	width: 70%;
+	color: #cbcbcb;
+	}
+.ipsum .container .text h3{
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 20px;
+	color: #28292e;
+}
+#bg1-div{
+    background-image: url(http://www.wallpaperbetter.com/wallpaper/840/252/11/gloomy-central-train-station-in-winter-1080P-wallpaper.jpg);
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+#bg1{
+    width: 100%;
+    background-color: rgba(244, 67, 0, 0.7);
+    border-bottom: 1px #f03c0b solid;
+    height: auto;
+    
+}

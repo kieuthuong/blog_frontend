@@ -1,0 +1,624 @@
+.step1,.step2,.step3,.step4 {
+	display: none;
+}
+#content {
+	background-color: #fcfcfc;
+}
+/*panel*/
+/** {
+	word-wrap: break-word;
+}*/
+.step-panel {
+	margin-bottom: 100px;
+}
+.panel-hide {
+	display: none;
+}
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
+  .toggle.ios .toggle-handle { border-radius: 20px; }
+
+ .left-panel #filter-by{
+	background-color: #28292e;
+	color: white;
+ }
+.left-panel #filter-by #title {
+	font-size: 25px;line-height: 60px;text-align: center;border-bottom: 1px solid white;
+}
+.left-panel #filter-by #check {
+	padding: 20px 5%;
+}
+.left-panel #filter-by #check>p {
+	font-size: 18px;
+} 
+.left-panel #filter-by #check .checkbox {
+	margin-bottom: 20px;
+}
+.left-panel #filter-by #check .checkbox button {
+	margin-right: 15px;
+}
+.left-panel #recent-ticket  #title {
+	font-size: 25px;
+	line-height: 60px;
+}
+.left-panel #recent-ticket .box-recent-tickets {
+	/*padding: 10px 5%;*/
+	border: 1px solid rgba(0,0,0,.15) ;
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	margin-bottom: 20px;
+	cursor: pointer;
+	background: white;
+}
+.left-panel #recent-ticket .box-recent-tickets:hover {
+	border-color: #f03c0b;
+}
+.left-panel #recent-ticket .box-recent-tickets .box-recent-tickets-left {
+	text-align: left;
+}
+.left-panel #recent-ticket .box-recent-tickets .box-recent-tickets-right {
+	text-align: right;
+	/*padding: 0;*/
+} 
+.left-panel #recent-ticket .box-recent-tickets .box-recent-tickets-right>p>span {
+	font-size: 20px;
+	color: orange;
+}
+.btn-toggle {
+  margin: 0 4rem;
+  padding: 0;
+  position: relative;
+  border: none;
+  height: 1.5rem;
+  width: 3rem;
+  border-radius: 1.5rem;
+  color: #6b7381;
+  background: #bdc1c8;
+}
+.btn-toggle:focus,
+.btn-toggle.focus,
+.btn-toggle:focus.active,
+.btn-toggle.focus.active {
+  outline: none;
+}
+.btn-toggle:before,
+.btn-toggle:after {
+  line-height: 1.5rem;
+  width: 4rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  transition: opacity .25s;
+}
+.btn-toggle:before {
+  content: 'Off';
+  left: -4rem;
+}
+.btn-toggle:after {
+  content: 'On';
+  right: -4rem;
+  opacity: .5;
+}
+.btn-toggle > .handle {
+  position: absolute;
+  top: 0.1875rem;
+  left: 0.1875rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 1.125rem;
+  background: #fff;
+  transition: left .25s;
+}
+.btn-toggle.active {
+  transition: background-color 0.25s;
+}
+.btn-toggle.active > .handle {
+  left: 1.6875rem;
+  transition: left .25s;
+}
+.btn-toggle.active:before {
+  opacity: .5;
+}
+.btn-toggle.active:after {
+  opacity: 1;
+}
+.btn-toggle.btn-xs {
+  margin: 0 0;
+  padding: 0;
+  position: relative;
+  border: none;
+  height: 1rem;
+  width: 2rem;
+  border-radius: 1rem;
+}
+.btn-toggle.btn-xs:focus,
+.btn-toggle.btn-xs.focus,
+.btn-toggle.btn-xs:focus.active,
+.btn-toggle.btn-xs.focus.active {
+  outline: none;
+}
+.btn-toggle.btn-xs:before,
+.btn-toggle.btn-xs:after {
+  line-height: 1rem;
+  width: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  transition: opacity .25s;
+}
+.btn-toggle.btn-xs:before {
+  content: 'Off';
+  left: 0;
+}
+.btn-toggle.btn-xs:after {
+  content: 'On';
+  right: 0;
+  opacity: .5;
+}
+.btn-toggle.btn-xs > .handle {
+  position: absolute;
+  top: 0.125rem;
+  left: 0.125rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 0.75rem;
+  background: #fff;
+  transition: left .25s;
+}
+.btn-toggle.btn-xs.active {
+  transition: background-color 0.25s;
+}
+.btn-toggle.btn-xs.active > .handle {
+  left: 1.125rem;
+  transition: left .25s;
+}
+.btn-toggle.btn-xs.active:before {
+  opacity: .5;
+}
+.btn-toggle.btn-xs.active:after {
+  opacity: 1;
+}
+.btn-toggle.btn-xs.btn-sm:before,
+.btn-toggle.btn-xs.btn-sm:after {
+  line-height: -1rem;
+  color: #fff;
+  letter-spacing: .75px;
+  left: 0.275rem;
+  width: 1.55rem;
+}
+.btn-toggle.btn-xs.btn-sm:before {
+  text-align: right;
+}
+.btn-toggle.btn-xs.btn-sm:after {
+  text-align: left;
+  opacity: 0;
+}
+.btn-toggle.btn-xs.btn-sm.active:before {
+  opacity: 0;
+}
+.btn-toggle.btn-xs.btn-sm.active:after {
+  opacity: 1;
+}
+.btn-toggle.btn-xs.btn-xs:before,
+.btn-toggle.btn-xs.btn-xs:after {
+  display: none;
+}
+.btn-toggle.btn-secondary {
+  color: #6b7381;
+  background: #bdc1c8;
+}
+.btn-toggle.btn-secondary:before,
+.btn-toggle.btn-secondary:after {
+  color: #6b7381;
+}
+.btn-toggle.btn-secondary.active {
+  background-color: #ff8300;
+}
+/*end panel*/
+.searchTicket{
+	width: 100%;
+	float: left;
+	
+}
+.searchTicket {
+	background-image: url(https://www.bigspeak.com/wp-content/uploads/2016/12/about.png);
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+}
+.searchTicket form{
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 100px;
+	opacity: 0.7;
+	background-color: #424346;
+	height: 200px;
+}
+.searchTicket form label{
+	color: white;
+	padding:0;
+	}
+.searchTicket form input{
+	border-radius: 5px;
+	height: 34px;
+}
+.searchTicket form select{
+	border-radius: 5px;
+	height: 34px;
+}
+.btsearchticket{
+	border-radius: 5px;
+	height: 30px;
+	color:white;
+	background-color:#f03c0b;
+	margin-top: 20px;
+}
+@media(max-width: 991px){
+	.searchTicket {
+	width: 100%;
+	height: 400px;
+	}
+	.searchTicket form{
+	height: 350px;
+	margin-top: 50px;
+
+  	}
+  .searchTicket form input,select{
+	border-radius: 5px;
+	height: 34px;
+	margin-top: 10px;
+	}
+	#swap{
+		margin-left: 45%;
+		margin-top: 6px;
+	}
+	.btsearchticket{
+		height: 40px;
+	}
+}
+
+.breadcrumb { 
+  list-style: none; 
+  overflow: hidden; 
+  font: 18px Helvetica, Arial, Sans-Serif;
+  margin: 0;
+  padding: 0;
+  border-color:#424346;
+}
+.breadcrumb li { 
+  float: left; 
+  padding:0;
+  
+}
+.breadcrumb li a {
+  color: white;
+  text-decoration: none; 
+  padding: 10px 0 10px 55px;
+ background:#28292e; 
+  position: relative; 
+  display: block;
+  float: left;
+  width: 92%;
+ }
+.breadcrumb li a:after { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid #28292e;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  left: 100%;
+  z-index: 2; 
+}   
+.breadcrumb li a:before { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1; 
+}   
+
+.breadcrumb li a:hover { background: #f03c0b; }
+.breadcrumb li a:hover:after { border-left-color: #f03c0b !important; }
+.main{
+	padding-top: 50px;
+	float: left;
+	width: 100%;
+	background-color: #fcfcfc
+}
+.filter{
+	color: #a6a6a6;
+	background-color: #28292e;
+}
+.filter .toggle{
+	margin-top: 10px;
+}
+.recentTickets{
+	margin-top: 10px;
+	background-color: #ffffff;
+	border: 1px solid #ede4e4;
+}
+.recentTickets:hover{
+	border: 1px solid red;
+}
+.recentTickets ul li{
+	list-style: none;
+	
+}
+.recentTickets ul li i{
+	margin-right: 12%;
+}
+.recentPosts {
+	padding:0;
+}
+.recentPosts ul li{
+	width: 100%;
+	float: left;
+	list-style: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-top: 1px solid #ede4e4;
+	padding-top: 10px;
+
+}
+.recentPosts ul li img{
+	width: 20%;
+	float: left;
+	
+}
+.recentPosts ul li:hover{
+	opacity: 0.5;
+	cursor: zoom-in;
+	color: #e6562f;
+}
+.recentPosts ul li span{
+	width: 70%;
+	margin-left: 10%;
+	float: left;
+}
+.content{
+	border: 1px solid #ede4e4;
+	margin-top: 15px;
+	background-color: #ffffff;
+	padding: 0;
+}
+.content:hover{
+	border: 1px solid red;
+}
+.content div{
+	padding-right: 0;
+	padding-left: 0;
+}
+.content img{
+	margin-top: 20px;
+}
+.content h4,h5{
+	margin-top:10px;
+	margin-bottom: 0;
+}
+.content p{
+	font-size: 12px;
+	color: #dad8d8;
+}
+.contentTicket{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.double .contentTicket{
+	border-right: 1px solid #ede4e4;
+	border-left: 1px solid #ede4e4;
+}
+.one>div{
+	height: 160px;
+}
+.one .code{
+	border-right: 1px solid #ede4e4;
+}
+.one .price{
+	border-left: 1px solid #ede4e4;
+
+}
+.contentTicket ul li{
+	list-style: none;
+	text-align: left;
+}
+.contentTicket ul small{
+	font-size: 10px;
+	color: #dad8d8;
+}
+.price i{
+	margin-right:15%;
+	width: 10%;
+	color:#dad8d8; 
+}
+.price button{
+	background-color:#f03c0b;
+	color: white;
+	border-width: 0;
+	height: 30px;
+	margin-top: 20px;
+	width: 100%;
+}
+.travelling{
+	background-color: #737373;
+	float: left;
+	height: 500px;
+	width: 100%;
+}
+.travelling .welcome .textwelcome{
+	padding-left:20%;
+	padding-right: 5%;
+	padding-top: 100px;
+}
+.travelling .welcome .textwelcome h1{
+	text-transform: uppercase;
+	font-size: 50px;
+	color: white;
+}
+.travelling .welcome .textwelcome h4{
+  	color:#a7a7a7;
+  }
+.travelling .ticket form {
+  	background-color: #424346;
+	margin-left: 10%;
+  	margin-top:100px;
+  	margin-right: 20%;
+  	height: 400px;
+  	opacity: 0.8;
+  }
+.travelling .ticket .form-group input{
+	display: inline-block;
+	margin:3%;
+}
+.travelling .ticket .form-group label{
+	margin-left:3%;
+	margin-top: 10px;
+	color: white;
+}
+
+.title{
+	margin-left: 10%;
+	height: 200px;	
+	float: left;
+	width: 100%;
+}
+.title h2{
+	text-transform: uppercase;
+	margin-top: 100px;
+	float: left;
+}
+.title button{
+	margin-left: 40%;
+	margin-top: 100px;
+	border:1px solid black;
+	border-radius: 5px;
+	height: 30px;
+	width: 7%;
+	background-color: white;
+}
+.toptravel .content{
+	width: 30%;	
+	margin-right: 3%;
+	float:left;
+	border: 1px solib #d0cdcd;
+
+}
+.toptravel .content ul{
+	display: inline-block;
+}
+
+.toptravel .content img{
+	size:200px;
+}
+.toptravel .content li{
+	list-style-type: none;
+	
+}
+.maintoptravel{
+	float: left;
+	width: 100%;
+	background-color: white;
+}
+.mainlatestposts{
+	float: left;
+	background-color: #f5f5f7;
+	width: 100%;
+	padding-bottom:50px;
+}
+.latestposts{
+
+}
+.latestposts .content{
+	width: 40%;
+	margin-right: 5%;
+	float: left;
+	margin-top: 10px;
+
+}
+.latestposts .content .img{
+	width: 50%;
+	float: left;
+}
+.latestposts .content .img img{
+	width: 100%;
+	height: 170px;
+}
+.latestposts .content .text{
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 50%;
+	float: left;
+	background-color: white;
+}
+.latestposts .content .text ul li{
+	list-style: none;
+	font-size: 10px;
+	color: #c0c0c0;
+}
+.latestposts .content .text p{
+	font-size: 14px;
+	color: #c0c0c0;
+}
+.mainticketsadv{
+	float: left;
+	width: 100%;
+	opacity: 0.7;
+	background-color: #bfbfbf;
+	color: white;
+}
+.ticketsadv .content{
+	width: 25%;
+	margin-right: 8%;
+	float: left;
+	text-align: center;
+}
+.ticketsadv .content img{
+	height: 100px;
+
+}
+.maintestimonials{
+	float: left;
+	background-color: white;
+	width: 100%;
+}
+.testimonials .content{
+	width: 45%;
+	float: left;
+}
+.testimonials .content .img{
+	width: 20%;
+	float: left;
+}
+.testimonials .content .img img{
+	width: 100%;
+	height: auto;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+}
+.testimonials .content .text{
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 80%;
+	float: left;
+	}

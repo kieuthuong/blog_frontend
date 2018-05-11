@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Singup</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+	<link rel="stylesheet" href="css/singup.css">
+	<link rel="stylesheet" href="css/frame.css">
+	<!-- <link rel="stylesheet" href="css/login.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/home.js"></script>
+	<script src="js/singup.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+	<div class="header">
+		<div class="logo col-lg-1 col-md-1 col-sm-1 col-xs-1 "></div>
+		<div class="logo col-lg-6 col-md-5 col-sm-5 col-xs-5 ">
+			<img style="height: 40px" src="images/1.jpg" alt="">
+		</div>
+		<div class="logo col-lg-1 col-md-1 col-sm-1 col-xs-1 "></div>
+		<div class="login-profile logged_out col-lg-3 col-md-4 col-sm-4 col-xs-4" >
+			<a id="ch_signup_icon" class="ch__signup cho_signup" href="singup.html">Sign Up</a> 
+		 	<a id="ch_login_icon" class="ch__login cho_login" href="login.html">Log In</a>
+		</div>
+		<div class="logo col-lg-1 col-md-1 col-sm-1 col-xs-1 "></div>
+	</div>
+	<div class="menu1">
+		<div class="topnav" id="myTopnav">
+		  <a href="home.html" class="active">Home</a>
+		  <a href="blog.html">Blog</a>
+		  <a href="gallery.html">Gallery</a>
+		  <a href="">Pages</a>
+		  <a href="about.html">About</a>
+		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="menuleft col-lg-8 col-md-7 col-sm-7 col-xs-7" style="padding:0">
+			<nav class="navbar" style="padding:0;margin:0;border: 0" >
+ 				<ul class="nav navbar-nav " >
+     				<li><a href="home.html">Home</a></li>
+     				<li><a href="blog.html">Blog</a></li>
+      				<li><a href="gallery.html">Gallery</a></li>
+      				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Pages<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+        					<li><a href="#">Home</a></li>
+          					<li><a href="blog.html">Blog</a></li>
+          					<li class="menu-lv2"><a href="gallery.html">Gallery</a>
+								<ul>
+									<li class="menu-lv3"><a href="#">2 Cols</a></li>
+		          					<li class="menu-lv3"><a href="#">3 Cols</a></li>
+		          					<li class="menu-lv3"><a href="#">4 Cols</a></li>
+		        				</ul>
+
+          					</li>
+          					<li><a href="about.html">About Us</a></li>
+          					<li><a href="contact.htmk">Contacts</a></li>
+          					<li><a href="results.html">Search Tickets</a></li>
+          					<li><a href="">User Settings</a></li>
+          					<li><a href="#">Shortcodes</a></li>
+          					<li><a href="404.html">404 Pages</a></li>
+        				</ul>
+     		 		</li>
+     		 		<li><a href="about.html">About</a></li>
+     		 		
+      			</ul>
+      			
+  			</nav>
+		</div>
+
+
+						
+		<div class="menuright col-lg-4 col-md-5 col-sm-5 col-xs-5" style="padding:0">
+			<nav class="navbar "  style="padding:0;margin:0;border: 0">
+ 				<ul class="nav navbar-nav">
+     				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">USD<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+          					<li><a href="#">Page 1-1</a></li>
+          					<li><a href="#">Page 1-2</a></li>
+          					<li><a href="#">Page 1-3</a></li>
+        				</ul>
+     		 		</li>
+     		 		<li class="dropdown">
+     		 			<ul>
+     		 				<li style="border-right: 1px solid #787983;margin-top:15px;"></li>
+     		 			</ul>
+     		 		</li>
+      				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EN<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+          					<li><a href="#">Page 1-1</a></li>
+          					<li><a href="#">Page 1-2</a></li>
+          					<li><a href="#">Page 1-3</a></li>
+        				</ul>
+     		 		</li>
+      			</ul>
+  				
+			</nav>
+		</div>
+	</div>
+	<div id="bg-div">
+		<div class="travelling" id="bg">
+			<div class="col-xs-12 main-signup" >
+				<div class="signup">
+					<div class="col-md-2 col-sm-2 "  ></div>
+					<div class="col-md-3 col-sm-8 col-xs-12 form_signup"  >
+						<!-- <form action="" method="POST" role="form"> -->
+						<p style="text-align: center;color: white;height: 60px;line-height: 60px;font-size: 18px">Sign up</p>
+						<hr width="100%" style="opacity: 0.3">
+						<div class="form-group">
+							<p style="margin-left: 3px">Enter your E-mail*</p>
+								<input type="text" class="form-control" id="dk_email" placeholder="Enter your E-mail">
+								<p id="cb_email" style="color: red"></p>
+								<p style="margin-left: 3px;margin-top:10px;">Enter your Name*</p>
+								<input type="text" class="form-control" id="dk_hoten" placeholder="Enter your Name">
+								<p id="cb_hoten" style="color: red"></p>
+								<p style="margin-left: 3px;margin-top:10px">Enter your password*</p>
+								<input type="password" class="form-control" id="dk_password" value="******">
+								<p id="cb_password" style="color: red"></p>
+								<p style="margin-left: 3px;margin-top:10px">Confirm your password*</p>
+								<input type="text" class="form-control" id="dk_password2" value="******">
+								<p id="cb_password2" style="color: red"></p>
+								<p style="margin-left: 3px;margin-top:10px">By signig up, you agree to <span style="color: #f03c0b">our terms</span > of use and <span style="color: #f03c0b"" >privacy policy</span></p>
+						</div>
+						<div style="width: 90%;margin:0 auto"><button type="button" class="btn btn-default" style="background: #f03c0b;color: white;font-size: 18px;width: 100%" onclick="check_dangki()">Sign Up</button>
+						</div>
+						<!-- </form> -->
+						<hr width="100%" style="opacity: 0.3">
+						<div style="width: 90%;margin:0 auto;margin-bottom: 20px"><button type="button" class="btn btn-default" style="background: #3b5998;color: white;font-size: 18px;width: 100%"><i class="fa fa-facebook-official" aria-hidden="true" style="float:left;margin-top:3px"></i>Login Facebook</button>
+						</div>
+						<div style="width: 90%;margin:0 auto 30px auto"><button type="button" class="btn btn-default" style="background: #dd4b39;color: white;font-size: 18px;width: 100%" ><i style="float:left;margin-top:3px" class="fa fa-google-plus" aria-hidden="true"></i>Login with Google+</button>
+						</div>
+					</div>
+					<div class="text col-md-5 col-sm-8 col-xs-12">
+						<p style="font-size: 40px">REGISTRATION NOTE</p>
+						<p style="font-size: 20px">Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor inciđiunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nosi ut aliquit ex ea commodo consequat.</p>
+						<p style="font-size: 20px">
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+					<div class="col-md-2 col-sm-2 "  ></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	
+	<div class="footer">
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">	</div>
+		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+			<ul class=" col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Menu</h4>
+				<li><a href="">Press Center</a></li>
+				<li><a href="">Travel News</a></li>
+				<li><a href="">Privacy Policy</a></li>
+				<li><a href="">Best Price Guarantee</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Contacts</a></li>
+			</ul>
+			<ul  class="contactus col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Contact Us</h4>
+				<li>
+					<i class="fa fa-phone-square"></i>
+					<a href="">444 5533 8866</a>
+				</li>
+				<li>
+					<i class="fa fa-skype"></i>
+					<a href="">book.your.train</a>
+				</li>
+				<li>
+					<i class="fa fa-envelope-square"></i>
+					<a href="">mail@bookyourtrain.com</a>
+				</li>
+				<li>
+					<i class="fa fa-map-marker"></i>
+					<a href="">5138 Littlr Shadow Garden <br>Del Monte,Alaska,<br>99631-4129,US</a>
+				</li>
+			</ul>
+			<ul  class="blogposts col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Blog Posts</h4>
+				<li>
+					<img src="https://images-na.ssl-images-amazon.com/images/I/41jtbgEzm6L._SL500_AC_SS350_.jpg" alt="">
+					<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> <br><small>10 days ago</small>	
+					</span>
+				</li>
+				<li>
+					<img src="https://images-na.ssl-images-amazon.com/images/I/41jtbgEzm6L._SL500_AC_SS350_.jpg" alt="">
+					<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> <br><small>10 days ago</small>	
+					</span>
+				</li>
+			</ul>
+			<ul  class="subscribe col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Subscribe</h4>
+				<li>
+					<div>
+						<form action="" method="POST" role="form">
+							<label for="">Be aware of news</label>
+							<div class="form-group">
+								
+								<input type="text" class="form-control" id="" placeholder="Your e-mail">
+							</div>
+							<button type="submit" class="btn btn-primary">Send</button>
+						</form>
+						<h4 style="margin-top: 20px;float: left;width: 100%">Follow Us</h4>
+						<div class="icon">
+							<img src="images/icon_in.png" alt="">
+							<img src="images/icon_fb.png" alt="">
+							<img style="width: 16px;margin-right: 5px;" src="images/icon_twi.png" alt="">
+							<img style="width: 18px;margin-right: 5px;" src="images/icon_g.png" alt="">
+							<img style="width: 18px;margin-right: 5px;" src="images/icon_youtube.png" alt="">
+						</div>
+					</div>
+				</li>
+			</ul>
+			<hr style="width: 100%;border-color:#4f5057">
+			<img style="float: left;height: 30px;margin-bottom: 20px;" src="images/1.jpg" alt="">
+			<span style="float:right;color: #989aa6;">2015 bestwebsoft</span>
+		</div>
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Passengers</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/passengers.css">
+	<link rel="stylesheet" href="css/frame.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+	<script src="js/.js"></script>
+</head>
+<body>
+	<!-- <div id="header-menu"> -->
+		<!-- start head -->
+		
+		<header>
+			<div class="header col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+				<div class="logo col-lg-1 col-md-1 col-sm-1 col-xs-1 "></div>
+				<div class="logo col-lg-6 col-md-5 col-sm-5 col-xs-5 ">
+					<img style="height: 40px" src="images/1.jpg" alt="">
+				</div>
+				<div class="logo col-lg-1 col-md-1 col-sm-1 col-xs-1 "></div>
+				<div class="login-profile logged_out col-lg-3 col-md-4 col-sm-4 col-xs-4" >
+					<a id="ch_signup_icon" class="ch__signup cho_signup">Sign Up</a> 
+				 	<a id="ch_login_icon" class="ch__login cho_login">Log In</a>
+				</div>
+			</div>
+			<div class=" col-lg-1 col-md-1 col-sm-1 col-xs-1 "></div>
+				<nav class="navbar navbar-default" role="navigation">
+						
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+				
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							
+							<div id="menu">
+								<ul class="nav navbar-nav" id="menu1">
+									<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html" id="home-li">Home</a></li>
+									<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Blog</a></li>
+									<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/gallery.html">Gallery</a></li>
+									<li class="dropdown" id="page">
+										<a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html">Home</a></li>
+											<li id="blog0">
+												<a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Blog<i class="fa fa-caret-right" aria-hidden="true"></i></a>
+												<ul id="blog">
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Action</a></li>
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Another action</a></li>
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Something else here</a></li>
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Separated link</a></li>
+												</ul>
+											</li>
+											<li id="blog1">
+												<a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Blog <b class="caret"></b></a>
+												<ul id="blog11">
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Action</a></li>
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Another action</a></li>
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Something else here</a></li>
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/blog.html">Separated link</a></li>
+												</ul>
+											</li>
+											<li id="gallery0">
+												<a href="http://project.zent.edu.vn/wf10-dovanduy/index/gallery.html">Gallery<i class="fa fa-caret-right" aria-hidden="true"></i></a>
+												<ul id="gallery">
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/gallery.html">2 Cols</a></li>
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/gallery.html">3 Cols</a></li>
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/gallery.html">4 Cols</a></li>
+												</ul>
+											</li>
+											<li id="gallery1">
+												<a href="http://project.zent.edu.vn/wf10-dovanduy/index/gallerry.html">Gallery <b class="caret"></b></a>
+												<ul id="gallery11">
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/gallerry.html">2 Cols</a></li>
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/gallerry.html">3 Cols</a></li>
+													<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/gallerry.html">4 Cols</a></li>
+												</ul>
+											</li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/about.html">About Us</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">Contact</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/04-results.html">Search Ticket</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">User Setting</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">Shortcodes</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/error.html">404 page</a></li>
+										</ul>
+									</li>
+									<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/about.html">About</a></li>
+								</ul>
+								<ul class="nav navbar-nav navbar-right">
+									<li class="dropdown" id="usd">
+										<a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#" class="dropdown-toggle" data-toggle="dropdown">USD <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">Action</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">Another action</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">Something else here</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">Separated link</a></li>
+										</ul>
+									</li>
+									<li class="dropdown" id="bn">
+										<a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#" class="dropdown-toggle" data-toggle="dropdown" id="bn-li">BN <b class="caret"></b></a>
+										<ul class="dropdown-menu">
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">Action</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">Another action</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">Something else here</a></li>
+											<li><a href="http://project.zent.edu.vn/wf10-dovanduy/index/01-home.html#">Separated link</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							
+						</div><!-- /.navbar-collapse -->
+				</nav>
+		</header>
+	<div class="searchTicket">
+		<form action="	">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+				<label class="col-lg-12 col-md-12 col-sm-12 col-xs-12" for="">Travelling route</label>	
+				<input class="col-lg-5 col-md-5 col-sm-5 col-xs-5" type="text" class="form-control" id="" placeholder="From" >
+				<div class=" col-lg-2 col-md-2 col-sm-2 col-xs-2">
+					<button style="margin-left: 23%">	
+						<img  src="images/icon_repeat.png" alt="" style="background-color: white;height: 20px;">
+					</button>
+					
+				</div>
+				<input class="col-lg-5 col-md-5 col-sm-5 col-xs-5" type="text" class="form-control" id="" placeholder="To" >
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
+				<label class="col-lg-12 col-md-12 col-sm-12 col-xs-12" for="">Travelling date</label>	
+				<input class="col-lg-5 col-md-5 col-sm-5 col-xs-5" type="type" class="form-control" id="" placeholder="Date">
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+				<input class="col-lg-5 col-md-5 col-sm-5 col-xs-5" type="type" class="form-control" id="" placeholder="One Way" >	
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<label class="col-lg-12 col-md-12 col-sm-12 col-xs-12" for="">Travelling person</label>	
+				<select class="col-lg-5 col-md-5 col-sm-5 col-xs-5" name="district []" id=""  >
+					<option value="1">0 Audult</option>
+					<option selected="" value="2">1 Audult</option>
+					<option value="3">2 Audult</option>
+					<option value="1">3 Audult</option>
+					<option value="3">4 Audult</option>
+				</select>
+				<div class=" col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+				<select  class="col-lg-5 col-md-5 col-sm-5 col-xs-5"  name="district []" id="" >
+					<option value="1">0 Kids</option>
+					<option selected="" value="2">1 Kids</option>
+					<option value="3">2 Kids</option>
+					<option value="1">3 Kids</option>
+					<option value="3">4 Kids</option>
+				</select>
+				<button class="col-lg-12 col-md-12 col-sm-12 col-xs-12" type="submit" class="btn btn-primary" style="color:white;background-color:#f03c0b;margin-top: 20px;border-radius: 4px">Search Ticket</button>
+			</div>
+				
+		</form>
+	</div>
+	<div class='step-panel'>
+		<div class='panel-menu1 panel-hide show'><img src='images/step1.png' height="45px;"></div>
+		<div class='panel-menu2 panel-hide'><img src='images/step2.png'></div>
+		<div class='panel-menu3 panel-hide'><img src='images/step3.png'></div>
+		<div class='panel-menu4 panel-hide'><img src='images/step4.png'></div>
+	</div>
+	<div class="main" >	
+		<div class="col-md-2">	</div>
+		<div class="col-md-3">
+			<div class="filter col-md-12">
+				<h3>Summary</h3>
+				<br>	
+				<div class="contentLeft">	
+					<div class="contentTicket col-md-12">
+						<ul class="col-md-5">
+							<span style="color: white;font-size: 20px;"><i class="fa fa-arrow-circle-right"></i> There</span>
+						</ul>
+						<ul class="col-md-2">
+						</ul>
+						<ul class="col-md-5" style="text-align: right;">
+							<i class="fa fa-minus-square"></i>	
+						</ul>
+					</div>
+					<div class="contentTicket col-md-12">
+						<ul class="col-md-4">
+							<span>Train name</span>
+						</ul>
+						<ul class="col-md-2">
+						</ul>
+						<ul class="col-md-6" style="text-align: right;">
+							<span>048A</span>	
+							<br>	
+							<span>North Express</span>
+						</ul>
+					</div>
+					<div class="contentTicket col-md-12">
+						<ul class="col-md-4">
+							<li><h4>8:30p</h4></li>
+							<li><small>Fed 14 Sun</small></li>
+						</ul>
+						<ul class="col-md-4" style="text-align: center;margin-top: 10px">
+							<span>07:25</span>
+							<br>	
+							<i class="fa fa-arrow-right"></i>
+						</ul>
+						<ul class="col-md-4">
+							<li><h4>2:50a</h4></li>
+							<li><small>Fed 15 Sun</small></li>
+						</ul>
+					</div>
+					<div class="contentTicket col-md-12">
+						<ul class="col-md-5">
+							<li><h5>New York</h5></li>
+							<li><small>Penn Station,NY</small></li>
+						</ul>
+						<ul class="col-md-2" ;">
+						</ul>
+						<ul class="col-md-5">
+							<li><h5>Los Angeles</h5></li>
+							<li><small>Union Station,CA</small></li>
+						</ul>
+					</div>
+				</div>
+				<div class="contentLeft">	
+					<div class="contentTicket col-md-12">	
+						<ul class="col-md-5">
+							<span style="color: white;font-size: 20px;"><i class="fa fa-arrow-circle-left"></i> Back</span>
+				 		</ul>
+						<ul class="col-md-2">
+							</ul>
+							<ul class="col-md-5" style="text-align: right;">
+								<i class="fa fa-minus-square"></i>	
+							</ul>
+					</div>
+					<div class="contentTicket col-md-12">
+						<ul class="col-md-4">
+							<span>Train name</span>
+						</ul>
+						<ul class="col-md-2">
+						</ul>
+						<ul class="col-md-6" style="text-align: right;">
+							<span>048A</span>	
+							<br>	
+							<span>North Express</span>
+						</ul>
+					</div>
+					<div class="contentTicket col-md-12">
+						<ul class="col-md-4">
+							<li><h4>8:30p</h4></li>
+							<li><small>Fed 14 Sun</small></li>
+						</ul>
+						<ul class="col-md-4" style="text-align: center;margin-top: 10px">
+							<span>07:25</span>
+							<br>	
+							<i class="fa fa-arrow-right"></i>
+						</ul>
+						<ul class="col-md-4">
+							<li><h4>2:50a</h4></li>
+							<li><small>Fed 15 Sun</small></li>
+						</ul>
+					</div>
+					<div class="contentTicket col-md-12">
+						<ul class="col-md-5">
+							<li><h5>New York</h5></li>
+							<li><small>Penn Station,NY</small></li>
+						</ul>
+						<ul class="col-md-2" ;">
+						</ul>
+						<ul class="col-md-5">
+							<li><h5>Los Angeles</h5></li>
+							<li><small>Union Station,CA</small></li>
+						</ul>	
+					</div>
+				</div>
+				<div class="contentLeft">	
+					<div class="contentTicket col-md-12">	
+						<ul class="col-md-10">
+							<span style="color: white;font-size: 20px;"><i class="fa fa-user"></i> Passengers</span>
+					 	</ul>
+						<ul class="col-md-2" style="text-align: right;">
+							<i class="fa fa-minus-square"></i>	
+						</ul>
+					</div>
+					<div class="contentTicket col-md-12">
+						<ul class="col-md-6">
+							<li><span>1 Adult</span></li>
+							<li><span>1 Children</span></li>
+						</ul>
+						<ul class="col-md-6"  style="text-align: right;">
+							<li><span>$260</span></li>	
+							<li><span>$0</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="contentLeft">	
+					<div class="contentTicket col-md-12">	
+						<ul class="col-md-10">
+							<span style="color: white;font-size: 20px;"><i class="fa fa-suitcase"></i> Baggage</span>
+					 	</ul>
+						<ul class="col-md-2" style="text-align: right;">
+							<i class="fa fa-minus-square"></i>	
+						</ul>
+					</div>
+					<div class="contentTicket col-md-12">
+						<ul class="col-md-6">
+							<li><span>1 Excess</span></li>
+							<li><span>0 Animals/Birds</span></li>
+							<li><span>0 Equipment</span></li>
+						</ul>
+						<ul class="col-md-6" style="text-align:right;">
+							<li><span>$44</span></li>	
+							<li><span>$0</span></li>
+							<li><span>$0</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="contentLeft col-md-12"">	
+					<div class="contentTicket ">	
+						<ul class="col-md-6">
+							<li style="color: red;font-size: 20px">Total</li>
+						 </ul>
+						<ul class="col-md-6" style="text-align:right;">
+							<li style="color: red;font-size: 20px">$304.00</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-5">
+			<div class="contentRight col-md-12">
+				<div class="top col-md-12">
+					<span style="float: left;font-size: 20px;">
+						<i class="fa fa-minus-circle"></i>
+						Passenger 1
+					</span>
+					<span style="float:right;font-size: 16px;">
+						Remove <i style="color: red" class="fa fa-times"></i>
+					</span>
+				</div>
+				<div class="content col-md-12">
+					<form action="	" method="POST" role="form">
+						<div class="form-group">
+							<label for="">First Name</label>
+							<input type="text" class="form-control" id="" placeholder="">
+						</div>
+					    <div class="form-group">
+							<label for="">Last Name</label>
+							<input type="text" class="form-control" id="" placeholder="">
+						</div>
+						<div class="form-group">
+							<label for="">Age</label>
+							<input type="text" class="form-control" id="" placeholder="">
+						</div>
+						<input type="checkbox"/> <span> Reduced mobility</span>
+						
+					</form>
+				</div>
+				<div class="content col-md-12">
+					<form action="	" method="POST" role="form">
+						<div class="form-group">
+							<label for="">Document Type</label>
+							<select style="width: 100%;height:30px;border-width: 1px;" name="district []" id="" >
+								<option value="1"></option>
+								<option selected="" value="2"></option>
+								<option value="3"></option>
+							</select>
+						</div>
+					    <div class="form-group">
+							<label for="">Document Number</label>
+							<input type="text" class="form-control" id="" placeholder="">
+						</div>
+						<div class="form-group">
+							<label for="">Citizenship</label>
+							<select style="width: 100%;height:30px;border-width: 1px;" name="district []" id="" >
+								<option value="1"></option>
+								<option selected="" value="2"></option>
+								<option value="3"></option>
+							</select>
+						</div>
+						<!-- <input type="checkbox"/> <span> Reduced mobility</span> -->
+						
+					</form>
+				</div>
+				<div class="content col-md-12">	
+					<form action="	" method="POST" role="form">
+						<div class="form-group">
+							<label for="">Additional Baggage</label>
+							<select style="width: 100%;height:30px;" name="district []" id="" >
+								<option value="1"></option>
+								<option selected="" value="2"></option>
+								<option value="3"></option>
+							</select>
+						</div>
+					    <div class="form-group">
+							<label for="">Animals</label>
+							<select style="width: 100%;height:30px;" name="district []" id="" >
+								<option value="1"></option>
+								<option selected="" value="2"></option>
+								<option value="3"></option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="">Equipment</label>
+							<select style="width: 100%;height:30px;" name="district []" id="" >
+								<option value="1"></option>
+								<option selected="" value="2"></option>
+								<option value="3"></option>
+							</select>
+						</div>
+						<!-- <input type="checkbox"/> <span> Reduced mobility</span> -->
+					</form>
+				</div>
+				<div class="content col-md-12" style="height: 80px">	
+					<button style="float: right;margin:18px;padding: 5px;color:#9b9898;background-color: white;border-color:#9b9898 ">Next Passenger</button>
+				</div>
+			</div>
+			<button style="float:right;background-color:#f03c0b;padding:10px;padding-right: 20px;padding-left: 20px;color: white; margin: 20px;">Buy Tickets</button>
+		</div>
+
+		<div class="col-md-2">	</div>
+	</div>
+	<div class="footer">
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">	</div>
+		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+			<ul class=" col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Menu</h4>
+				<li><a href="">Press Center</a></li>
+				<li><a href="">Travel News</a></li>
+				<li><a href="">Privacy Policy</a></li>
+				<li><a href="">Best Price Guarantee</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Contacts</a></li>
+			</ul>
+			<ul  class="contactus col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Contact Us</h4>
+				<li>
+					<i class="fa fa-phone-square"></i>
+					<a href="">444 5533 8866</a>
+				</li>
+				<li>
+					<i class="fa fa-skype"></i>
+					<a href="">book.your.train</a>
+				</li>
+				<li>
+					<i class="fa fa-envelope-square"></i>
+					<a href="">mail@bookyourtrain.com</a>
+				</li>
+				<li>
+					<i class="fa fa-map-marker"></i>
+					<a href="">5138 Littlr Shadow Garden <br>Del Monte,Alaska,<br>99631-4129,US</a>
+				</li>
+			</ul>
+			<ul  class="blogposts col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Blog Posts</h4>
+				<li>
+					<img src="https://images-na.ssl-images-amazon.com/images/I/41jtbgEzm6L._SL500_AC_SS350_.jpg" alt="">
+					<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> <br><small>10 days ago</small>	
+					</span>
+				</li>
+				<li>
+					<img src="https://images-na.ssl-images-amazon.com/images/I/41jtbgEzm6L._SL500_AC_SS350_.jpg" alt="">
+					<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> <br><small>10 days ago</small>	
+					</span>
+				</li>
+			</ul>
+			<ul  class="subscribe col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<h4>Subscribe</h4>
+				<li>
+					<div>
+						<form action="" method="POST" role="form">
+							<label for="">Be aware of news</label>
+							<div class="form-group">
+								
+								<input type="text" class="form-control" id="" placeholder="Your e-mail">
+							</div>
+							<button type="submit" class="btn btn-primary">Send</button>
+						</form>
+						<h4 style="margin-top: 20px;float: left;width: 100%">Follow Us</h4>
+						<div class="icon">
+							<img src="images/icon_in.png" alt="">
+							<img src="images/icon_fb.png" alt="">
+							<img style="width: 16px;margin-right: 5px;" src="images/icon_twi.png" alt="">
+							<img style="width: 18px;margin-right: 5px;" src="images/icon_g.png" alt="">
+							<img style="width: 18px;margin-right: 5px;" src="images/icon_youtube.png" alt="">
+						</div>
+					</div>
+				</li>
+			</ul>
+			<hr style="width: 100%;border-color:#4f5057">
+			<img style="float: left;height: 30px;margin-bottom: 20px;" src="images/1.jpg" alt="">
+			<span style="float:right;color: #989aa6;">2015 bestwebsoft</span>
+		</div>
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+#bg-div{
+	background-image: url(https://www.bigspeak.com/wp-content/uploads/2016/12/about.png);
+	background-size: cover;
+	width: 100%;
+}
+#bg{
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	border-bottom: 5px #f03c0b solid;
+	height: 900px;
+	
+}
+.form_signup p{
+	color: white;
+}
+.text p{
+	color: #9f9f9f;
+}
+.main-signup{
+	margin-top:50px;
+}
+.main-signup{
+
+}
+.form_signup{
+	margin-right: 20px;
+	background-color:#3e3f42;
+	opacity: 0.7;
+}
+
+@media(max-width: 992px){
+	#bg{
+	width: 100%;
+	height:1300px;
+	}
+	.text p{
+		margin-left:20%;
+			}
+}
+@media(max-width: 769px){
+	#bg{
+	width: 100%;
+	height:1600px;
+	}
+	.text p{
+		margin: 1%;
+			}
+}

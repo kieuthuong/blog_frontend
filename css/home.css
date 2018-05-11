@@ -1,0 +1,332 @@
+#bg-div{
+	background-image: url(https://www.bigspeak.com/wp-content/uploads/2016/12/about.png);
+	background-size: cover;
+	width: 100%;
+}
+#bg{
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	border-bottom: 5px #f03c0b solid;
+	height: 700px;
+	
+}
+#bg1-div{
+    background-image: url(http://www.wallpaperbetter.com/wallpaper/840/252/11/gloomy-central-train-station-in-winter-1080P-wallpaper.jpg);
+    background-size: cover;
+    width: 100%;
+    float: left;
+    opacity: 0.7;
+
+}
+
+.travelling .welcome .textwelcome{
+	padding-left:20%;
+	padding-right: 5%;
+	padding-top: 180px;
+}
+.travelling .welcome .textwelcome p{
+	text-transform: uppercase;
+	font-size: 50px;
+	color:gray;
+	letter-spacing: 5%;
+	margin-bottom: 10%;
+	/*line-height: 40;*/
+}
+.travelling .welcome .textwelcome h4{
+  	color:white;
+  	margin-top: 10px;
+  }
+.travelling .ticket form {
+  	background-color: #424346;
+	margin-left: 10%;
+  	margin-top:100px;
+  	margin-right: 10%;
+  	height: 500px;
+  	opacity: 0.7;
+  	border-bottom: 5px solid #f03c0b;
+  }
+.travelling .ticket form select{
+  	width: 40%;
+  	margin-left: 8%;
+  	height: 30px;
+  	background: white;
+  	border-radius: 5px;
+  }
+.travelling .ticket .form-group input{
+	display: inline-block;
+	width: 30%;
+	margin:4%;
+	background: white;
+}
+
+
+.travelling .ticket .form-group label{
+	margin-left:4%;
+	margin-top: 4%;
+	color: white;
+}
+#swap{
+    width: 40px;
+    margin: 10px 20px;
+}
+.travelling form>button{
+	color:white;
+	margin-left:53%;
+	width: 40%;
+	height: auto;
+	background-color:#f03c0b;
+	margin-top: 20px;
+	border: 0;
+	font-size: 100%;
+
+}	
+@media(max-width: 520px){
+	#address1,#address2{
+		width:80%; 
+		float: left;
+	}
+	#swap{
+		margin-left:40%;
+	}
+}
+@media (max-width: 370px){
+	.travelling .ticket button{
+	 font-size: 60%;
+	 width: 40%;
+}
+	}
+
+
+@media (max-width: 880px){
+	.travelling .welcome .textwelcome{
+		display: none;
+	}
+}
+
+.title{
+	height: 160px;	
+	float: left;
+	width: 100%;
+	padding: 0;
+}
+.title h2{
+	text-transform: uppercase;
+	margin-top: 60px;
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 30px;
+
+}
+.title button{
+	/*margin-left: 40%;*/
+	float: right;
+	margin-right: 20%;
+	padding: 0;
+	size: 100%;
+	margin-top: 60px;
+	border:1px solid black;
+	border-radius: 5px;
+	height: 30px;
+	width: 25%;
+	background-color: white;
+	font-size: 70%;
+}
+.toptravel {
+	float: left;
+ 
+}
+.toptravel>div{
+	float: left;
+	padding: 0;
+}
+.toptravel .content{
+	float:left;
+	padding-right: 15px;
+	padding-left: 15px;
+	/*border: 1px  #d0cdcd;*/
+	margin-bottom: 20px;
+	
+	/*margin-left: 10px;*/
+}
+.toptravel .content ul{
+	display: inline-block;
+	
+}
+/*.toptravel .content .img{
+	    position: relative;
+
+}*/
+.toptravel .content .img{
+	padding:0;
+}
+.toptravel .content .img img{
+	width:100%;
+	height: 250px;
+	padding: 0;
+	/*transition: .5s ease;
+    backface-visibility: hidden;*/
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0.5;
+  position: absolute;
+  top: 35%;
+  left: 51%;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top:35px;
+
+
+}
+.middle.text {
+  background-color: none;
+  color: black;
+  font-size: 16px;
+  padding: 16px ;
+
+}
+
+.toptravel .content .img:hover img{
+	cursor: pointer;
+	opacity: 0.3;
+}
+.toptravel .content .middle{
+	display: none;
+}
+.toptravel .content .img:hover .middle {
+	display: block;
+  	opacity: 1;
+}
+
+.toptravel .content li{
+	list-style-type: none;
+	
+}
+.maintoptravel{
+	float: left;
+	width: 100%;
+	background-color: white;
+}
+.mainlatestposts{
+	float: left;
+	background-color: #f5f5f7;
+	width: 100%;
+	padding-bottom:50px;
+}
+.latestposts{
+	float: left;
+}
+.latestposts div{
+	
+	padding:0;
+}
+.latestposts .content{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+.latestposts .content .img{
+	
+	float: left;
+}
+.latestposts .content .img img{
+	width: 100%;
+	height: 170px;
+	 transition: .5s ease;
+  backface-visibility: hidden;
+}
+.latestposts .content .img:hover img{
+cursor: pointer;
+	opacity: 0.3;
+	}
+.latestposts .content .img:hover.middle 
+		{
+  opacity: 1;
+}
+
+.latestposts .content .text{
+	padding-left: 5%;
+	padding-right: 5%;
+	
+	float: left;
+	background-color: white;
+}
+.latestposts .content .text ul li{
+	list-style: none;
+	font-size: 10px;
+	color: #c0c0c0;
+}
+.latestposts .content .text p{
+	font-size: 14px;
+	color: #c0c0c0;
+}
+.mainticketsadv{
+	 /*position: relative;*/
+	 /*background: url(http://www.nationalgeographicexpeditions.com/assets/images/5129/hero-interior.jpg);*/
+	float: left;
+	width: 100%;
+	opacity: 0.7;
+	background-color: #bfbfbf;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.mainlatestposts{
+	float: left;
+}
+.ticketsadv{
+	float: left;
+	padding-bottom: 20px;
+}
+.ticketsadv .content{
+	/*width: 25%;*/
+	/*margin-right: 8%;*/
+	float: left;
+	text-align: center;
+}
+.ticketsadv .content img{
+	height: 100px;
+}
+.ticketsadv .content img:hover{
+	cursor: pointer;
+}
+.maintestimonials{
+	float: left;
+	background-color: white;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.testimonials{
+	float: left;
+
+	padding-bottom: 30px;
+}
+.testimonials .content{
+	float: left;
+	padding-bottom: 10px;
+}
+.testimonials .content .img{
+	width: 30%;
+	float: left;
+	padding-left:10%;
+}
+.testimonials .content .img img{
+	width: 100%;
+	height: auto;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+}
+.testimonials .content .text{
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 70%;
+	float: left;
+	}
+

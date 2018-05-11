@@ -1,0 +1,259 @@
+#bg-div{
+	background-image: url(http://www.sonomamarintrain.org/sites/default/files/Images/secondary-banner_0.jpg);
+	background-size: cover;
+	width: 100%;
+}
+#bg{
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	border-bottom: 1px #f03c0b solid;
+	height: 400px;
+	
+}
+.travelling .text {
+	text-align: center;
+	padding-top: 200px;
+}
+.travelling .text p{
+	text-transform: uppercase;
+	font-size: 50px;
+	color:white;
+	letter-spacing: 5%;
+	margin-bottom: 10%;
+	/*line-height: 40;*/
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+a{
+	text-decoration: none;
+	color: #4d4d4d;
+}
+.main{
+	margin-top:40px;
+}
+.mainleft .menu{
+	border-bottom: 1px solid #e4e3e3;
+	color: #a1a1a1;
+	padding-bottom:8px;
+	padding-top:8px;
+	font-size: 13px;
+
+}
+.mainleft h4{
+	margin-top: 40px;
+	padding-bottom: 25px;
+	 border-bottom: 1px solid #e4e3e3;
+	 margin-bottom: 0;
+}
+.mainleft .menu:hover{
+	color: #f03c0b;
+	cursor: pointer;
+	}
+.mainleft .menu:first-child{
+	border-top: 1px solid #e4e3e3;
+}
+.mainleft .menu .right{
+	float: right;
+}
+#gallery{
+	width: 100%;
+	padding:0;
+	padding-bottom: 20px;
+
+}
+#gallery h4{
+	margin-top: 40px;
+	padding-bottom: 25px;
+}
+#gallery button{
+	border-radius:5px;
+	border-radius: 1px solid #4d4d4d;
+	background-color: white;
+	margin-top: 10px;
+	padding:4px;
+	margin-bottom: 10px;
+	
+}
+#gallery button a{
+	color: #a1a1a1;
+	font-size: 13px;
+}
+#gallery p{
+	color: #a1a1a1;
+	font-size: 13px;
+}
+.recentPosts {
+	padding:0;
+	margin-bottom:20px; 
+}
+.recentPosts ul li{
+	width: 100%;
+	float: left;
+	list-style: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-top: 1px solid #ede4e4;
+	padding-top: 10px;
+
+}
+.recentPosts ul li:last-child{
+	border-bottom: 1px solid #ede4e4;
+	padding-bottom: 10px;
+}
+.recentPosts ul li img{
+	width: 20%;
+	float: left;
+	
+}
+.recentPosts ul li:hover{
+	opacity: 0.5;
+	cursor: zoom-in;
+	color: #e6562f;
+}
+.recentPosts ul li span{
+	width: 70%;
+	margin-left: 10%;
+	float: left;
+}
+.tags{
+	margin-bottom: 20px;
+}
+.tags button {
+    margin: 10px 5px;
+    border-radius: 12px;
+    color: #a1a1a1;
+	font-size: 13px;
+
+}
+.tags button:hover{
+	color: #f03c0b;
+	border-color: #f03c0b;
+	background-color: white;
+}
+.recentTickets{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	border: 1px solid #ede4e4;
+}
+.recentTickets:hover{
+	border: 1px solid red;
+}
+.recentTickets ul li{
+	list-style: none;
+	
+}
+.recentTickets ul li i{
+	margin-right: 12%;
+}
+.content{
+	float:left;
+	
+	/*border: 1px  #d0cdcd;*/
+	margin-bottom: 20px;
+	
+	/*margin-left: 10px;*/
+}
+.content ul{
+	display: inline-block;
+	
+}
+
+.content .img{
+	padding:0;
+}
+.content .img img{
+	width:100%;
+	height: auto;
+	padding: 0;
+}
+.content .img:hover img{
+	cursor: pointer;
+	opacity: 0.3;
+}
+.content .middle{
+	display: none;
+}
+.content .img:hover .middle {
+	display: block;
+  	opacity: 1;
+}
+
+.content li{
+	list-style-type: none;
+	
+}
+.navbar{
+
+}
+.navbar h5{
+	color: #4d4d4d;
+}
+.navbar a{
+	color: #bababa;
+}
+.border{
+	border: 1px solid #eae8e8;
+	padding:10px;
+}
+.blog-main span{
+	color: #a6a6a6;
+ 	margin-right:20px;
+}
+.blog-main p{
+	margin-top:10px;
+	color: ;
+}
+.blog-main span i{
+ color: #f03c0b;
+ margin-right:5px;
+}
+.blog-main i:hover{
+	cursor: pointer;
+}
+.blog-main button{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.blog-main button:hover{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.collapse i{
+	color: #f03c0b;
+}
+.thumbnail{
+	border: 0;
+}
+.thumbnail td button{
+	 margin: 10px 5px;
+    border-radius: 12px;
+    color: #a1a1a1;
+	font-size: 13px;
+
+}
+.thumbnail td button:hover{
+	color: #f03c0b;
+	border-color: #f03c0b;
+	background-color: white;
+}
+.thumbnail td i{
+	color: #d8d7d7;
+	margin-left:10px; 
+}
+.thumbnail td i:hover{
+	color: #f03c0b;
+	}
+
